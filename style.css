@@ -11,6 +11,11 @@
     background-repeat: no-repeat;
     background-position: top left,bottom right;
 }
+/* main style */
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* shared styles */
 .section-title{
     font-size:35px;
@@ -39,6 +44,9 @@
 
 .secondary-bg{
     background-color: #FFF8F3;
+}
+.text-center{
+    text-align: center;
 }
 /* Nav style */
 nav{
@@ -107,4 +115,56 @@ main{
     padding: 130px 150px;
     margin-top: 100px;
     text-align: center;
+}
+
+/* skill stye? */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-desctiption{
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+.skill{
+    
+}
+.skill{
+    padding: 35px;
+    box-shadow: 0px 6px 50px 0px rgb(201, 200, 200);
+    border-radius: 5px;
+}
+
+
+/* resume style  */
+
+.resume-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.resume .btn{
+    margin-top: 20px;
+}
+
+/* footer section  */
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 130px 230px;
+}
+.footer-column{
+    max-width: 50%;
+}
+footer input[type="text"],footer input[type="email"],footer textarea {
+
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    display: block;
+    height: 64px;
+    width: 100%;
 }

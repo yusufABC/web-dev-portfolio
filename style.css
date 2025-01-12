@@ -1,4 +1,8 @@
-
+*{
+    background-color: rgba(rgb(231, 152, 152), rgb(162, 202, 162), rgb(161, 161, 221), 50%);
+    
+    
+}
 
 .work-sans-normal {
   font-family: "Work Sans", serif;

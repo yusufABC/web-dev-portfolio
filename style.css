@@ -130,9 +130,7 @@ main{
     line-height: 1.8;
     letter-spacing: 1px;
 }
-.skill{
-    
-}
+
 .skill{
     padding: 35px;
     box-shadow: 0px 6px 50px 0px rgb(201, 200, 200);
@@ -204,6 +202,45 @@ footer input[type="text"],footer input[type="email"],footer textarea {
     /* footer  */
     footer{
     padding: 20px;
+  }
+   .footer-column{
+    max-width: 100%;
+   } 
+   footer input[type="text"],footer input[type="email"],footer textarea{
+    width:calc(100% - 40px)
+   }
+}
+
+@media screen and (min-width:576px) and  (max-width:882px){
+
+/* skill section  */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.banner,.skills-container,.resume-container ,   footer{
+    flex-direction: column;
+}
+div#hardy-img img {
+    width: 100%;
+}
+/* resume section  */
+.resume-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.resume column{
+    text-align: center;
+}
+
+   /* footer section   */
+   footer{
+    padding: 20px;
+    
   }
    .footer-column{
     max-width: 100%;

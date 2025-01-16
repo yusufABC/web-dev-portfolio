@@ -3,7 +3,7 @@
     
     
 }
-
+/*  */
 .work-sans-normal {
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
@@ -171,4 +171,44 @@ footer input[type="text"],footer input[type="email"],footer textarea {
     display: block;
     height: 64px;
     width: 100%;
+}
+
+
+/* responsive styles */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    .skills-container,
+    .resume-container ,
+    footer,
+    .banner,
+    nav{
+        flex-direction: column;
+    }
+
+    .banner{
+        margin:20px ;
+    }
+    .banner-content{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    /* hardy img  */
+    div#hardy-img img {
+        width: 100%;
+    }
+    /* footer  */
+    footer{
+    padding: 20px;
+  }
+   .footer-column{
+    max-width: 100%;
+   } 
+   footer input[type="text"],footer input[type="email"],footer textarea{
+    width:calc(100% - 40px)
+   }
 }
